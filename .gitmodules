@@ -1,0 +1,12 @@
+[submodule "1_springai_rag_mcp_agent/yu-ai-agent"]
+	path = 1_springai_rag_mcp_agent/yu-ai-agent
+	url = git@github.com:liyupi/yu-ai-agent.git
+[submodule "2_langchain4j/ai-code-helper"]
+	path = 2_langchain4j/ai-code-helper
+	url = git@github.com:liyupi/ai-code-helper.git
+[submodule "3_langgraph4j/yu-ai-code-mother"]
+	path = 3_langgraph4j/yu-ai-code-mother
+	url = git@github.com:liyupi/yu-ai-code-mother.git
+[submodule "4_springboot_docker/yu-auto-reply"]
+	path = 4_springboot_docker/yu-auto-reply
+	url = git@github.com:liyupi/yu-auto-reply.git

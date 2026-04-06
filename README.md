@@ -16,24 +16,40 @@ ls -rt | awk '{printf("%02d %s\n", NR, $0)}'| while IFS= read -r line; do array=
 
 ## SpringAI_RAG_MCP_Agent AI 超级智能体
 
-from <https://www.codefather.cn/course/1915010091721236482/section/1915011053345120257>
+《SpringAI + RAG + MCP + Agent AI 超级智能体企业级实战（26年必学）》
+
+from <https://www.codefather.cn/course/1915010091721236482>
 
 see [1_springai_rag_mcp_agent](./1_springai_rag_mcp_agent/)
 
 ## LangChain4j 实战
 
-from <https://www.codefather.cn/course/1943267371799080961/section/1943267426392141826>
+《LangChain4j 实战教程 | AI 编程助手项目》
+
+from <https://www.codefather.cn/course/1943267371799080961>
 
 see [2_langchain4j](./2_langchain4j/)
 
 ## LangGraph4j AI 零代码应用生成平台
 
-from <https://www.codefather.cn/course/1948291549923344386/section/1948291654280491010>
+《【大厂必备】LangChain4j + 工作流 + 微服务 AI 零代码应用生成平台》
+
+from <https://www.codefather.cn/course/1948291549923344386>
 
 see [3_langgraph4j](./3_langgraph4j/)
 
 ## AI 大模型容器化项目
 
-from <https://www.codefather.cn/course/1966420016440999938/section/1966420759127527425>
+《SpringBoot + AI 大模型容器化项目部署实战：AI 自动回复工具》
+
+from <https://www.codefather.cn/course/1966420016440999938>
 
 see [4_springboot_docker](./4_springboot_docker/)
+
+## DDD 实践
+
+《Vue3 + SpringBoot + AI + DDD 企业级智能协同云图库项目（25 年最新）》
+
+from <https://www.codefather.cn/course/1864210260732116994>
+
+see [5_springboot_ddd](./5_springboot_ddd/)

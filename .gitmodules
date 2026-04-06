@@ -10,3 +10,6 @@
 [submodule "4_springboot_docker/yu-auto-reply"]
 	path = 4_springboot_docker/yu-auto-reply
 	url = git@github.com:liyupi/yu-auto-reply.git
+[submodule "5_springboot_ddd/yu-picture"]
+	path = 5_springboot_ddd/yu-picture
+	url = git@github.com:liyupi/yu-picture.git

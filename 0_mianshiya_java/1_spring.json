@@ -1,0 +1,637 @@
+{
+    "bank_name": "Spring 面试题 - 面试鸭 | 2026最新企业真题+详细答案解析",
+    "questions": [
+        {
+            "question": "什么是循环依赖（常问）？",
+            "difficulty": "中等",
+            "keywords": [
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 如何解决循环依赖？",
+            "difficulty": "中等",
+            "keywords": [
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "为什么 Spring 循环依赖需要三级缓存，二级不够吗？",
+            "difficulty": "中等",
+            "keywords": [
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "看过源码吗？说下 Spring 由哪些重要的模块组成？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "什么是 Spring IOC？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring IOC 有什么好处？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 DI 是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "什么是 Spring Bean？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 BeanFactory 是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 FactoryBean 是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 ObjectFactory 是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 ApplicationContext 是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring Bean 一共有几种作用域？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 一共有几种注入方式？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "什么是 AOP？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring AOP默认用的是什么动态代理，两者的区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "能说说 Spring 拦截链的实现吗？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring AOP 和 AspectJ 有什么区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "说下 Spring Bean 的生命周期？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "说下对 Spring MVC 的理解？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring MVC 具体的工作原理？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "SpringMVC 父子容器是什么知道吗？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "你了解的 Spring 都用到哪些设计模式？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 事务有几个隔离级别？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 有哪几种事务传播行为?",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 事务传播行为有什么用?",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 的优点",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring AOP 相关术语都有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 通知有哪些类型？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring IOC 容器初始化过程？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring Bean 注册到容器有哪些方式？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 自动装配的方式有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "@Qualifier 注解有什么作用",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "@Bean和@Component有什么区别？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "@Component、@Controller、@Repository和@Service 的区别？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 事务在什么情况下会失效？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "说说 Spring 启动过程？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 的单例 Bean 是否有并发安全问题？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring中的@Primary注解的作用是什么？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring中的@Value注解的作用是什么？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @Profile 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @PostConstruct 和 @PreDestroy 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @RequestBody 和 @ResponseBody 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @PathVariable 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring中的 @ModelAttribute 注解的作用是什么？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @ExceptionHandler 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @ResponseStatus 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @RequestHeader 和 @CookieValue 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @SessionAttribute 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @Validated 和 @Valid 注解有什么区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @Scheduled 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @Cacheable 和 @CacheEvict 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @Conditional 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @Lazy 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @PropertySource 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 @EventListener 注解的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "@Async 注解的原理是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 和 Spring MVC 的关系是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring WebFlux 是什么？它与 Spring MVC 有何不同？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "介绍下 Spring MVC 的核心组件？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "什么是 Restful 风格的接口？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring MVC中的Controller是什么？如何定义一个Controller？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring MVC 中如何处理表单提交？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring MVC 中的视图解析器有什么作用？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring MVC 中的拦截器是什么？如何定义一个拦截器？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring MVC 中的国际化支持是如何实现的？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring MVC 中如何处理异常？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "Spring 中的 JPA 和 Hibernate 有什么区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "@Async 如何避免内部调用失效？",
+            "difficulty": "中等",
+            "keywords": [
+                "后端",
+                "Spring"
+            ]
+        },
+        {
+            "question": "@Async 什么时候会失效？",
+            "difficulty": "中等",
+            "keywords": [
+                "Spring"
+            ]
+        },
+        {
+            "question": "在 Spring 中，拦截器和过滤器有什么区别？",
+            "difficulty": "简单",
+            "keywords": [
+                "Spring",
+                "Java"
+            ]
+        }
+    ]
+}

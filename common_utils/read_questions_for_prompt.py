@@ -1,7 +1,10 @@
 
 
+import io
 import json
 from pathlib import Path
+import sys
+from typing import cast
 
 
 def each_questions_format_by_jsons(file_path: str):
@@ -61,6 +64,7 @@ def main():
     with open(this_folder / '0_prompt.md', 'r', encoding='utf-8') as f:
         prompt_prefix = f.read()
     
+    cast(io.TextIOWrapper, sys.stdout).reconfigure(encoding='utf-8')
     num = 1
     for question in each_questions_format_by_jsons(r'./1_Questions_from_mianshiya.json'):
         print(f"# ========= {num} =========\n")

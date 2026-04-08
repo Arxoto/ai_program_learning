@@ -1,0 +1,419 @@
+{
+    "bank_name": "Java 虚拟机面试题 - 面试鸭 | 2026最新企业真题+详细答案解析",
+    "questions": [
+        {
+            "question": "Java 中有哪些垃圾回收算法？",
+            "difficulty": "中等",
+            "keywords": [
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "JVM 由哪些部分组成？",
+            "difficulty": "中等",
+            "keywords": [
+                "后端",
+                "Java",
+                "JVM"
+            ]
+        },
+        {
+            "question": "JVM 的内存区域是如何划分的？",
+            "difficulty": "中等",
+            "keywords": [
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "JVM 的 TLAB（Thread-Local Allocation Buffer）是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 是如何实现跨平台的？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "编译执行与解释执行的区别是什么？JVM 使用哪种方式？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "JVM 方法区是否会出现内存溢出?",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Java",
+                "JVM"
+            ]
+        },
+        {
+            "question": "JVM 有那几种情况会产生 OOM（内存溢出）？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Java",
+                "JVM"
+            ]
+        },
+        {
+            "question": "Java 中堆和栈的区别是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "什么是 Java 中的直接内存（堆外内存）？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "什么是 Java 中的常量池？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "你了解 Java 的类加载器吗？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "什么是 Java 中的 JIT（Just-In-Time）?",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "JIT 编译后的代码存在哪？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Java",
+                "JVM"
+            ]
+        },
+        {
+            "question": "什么是 Java 的 AOT（Ahead-Of-Time）？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "你了解 Java 的逃逸分析吗？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 中的强引用、软引用、弱引用和虚引用分别是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 中常见的垃圾收集器有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 中如何判断对象是否是垃圾？不同实现方式有何区别？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "为什么 Java 的垃圾收集器将堆分为老年代和新生代？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "为什么 Java 8 移除了永久代（PermGen）并引入了元空间（Metaspace）？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "为什么 Java 新生代被划分为 S0、S1 和 Eden 区？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "什么是三色标记算法？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 中的 young GC、old GC、full GC 和 mixed GC 的区别是什么？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "什么条件会触发 Java 的 young GC？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "什么情况下会触发 Java 的 Full GC？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "什么是 Java 的 PLAB？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "JVM 垃圾回收时产生的 concurrent mode failure 的原因是什么？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "为什么 Java 中 CMS 垃圾收集器在发生 Concurrent Mode Failure 时的 Full GC 是单线程的？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "为什么 Java 中某些新生代和老年代的垃圾收集器不能组合使用？比如 ParNew 和 Parallel Old",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "JVM 新生代垃圾回收如何避免全堆扫描？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 的 CMS 垃圾回收器和 G1 垃圾回收器在记忆集的维护上有什么不同？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "为什么 G1 垃圾收集器不维护年轻代到老年代的记忆集？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 中的 CMS 和 G1 垃圾收集器如何维持并发的正确性？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java G1 相对于 CMS 有哪些进步的地方?",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Java",
+                "JVM"
+            ]
+        },
+        {
+            "question": "什么是 Java 中的 logging write barrier？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 的 G1 垃圾回收流程是怎样的？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 的 CMS 垃圾回收流程是怎样的？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "你了解 Java 的 ZGC（Z Garbage Collector）吗？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "JVM 垃圾回收调优的主要目标是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "如何对 Java 的垃圾回收进行调优？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "常用的 JVM 配置参数有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "你常用哪些工具来分析 JVM 性能？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "如何在 Java 中进行内存泄漏分析？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        },
+        {
+            "question": "Java 里的对象在虚拟机里面是怎么存储的？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Java",
+                "JVM"
+            ]
+        },
+        {
+            "question": "说说 Java 的执行流程?",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "JVM",
+                "Java"
+            ]
+        }
+    ]
+}

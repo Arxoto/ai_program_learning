@@ -1,0 +1,301 @@
+{
+    "bank_name": "计算机网络面试题 - 面试鸭 | 2026最新企业真题+详细答案解析",
+    "questions": [
+        {
+            "question": "HTTP 1.0 和 2.0 有什么区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "网络"
+            ]
+        },
+        {
+            "question": "HTTP 2.0 和 3.0 有什么区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "网络"
+            ]
+        },
+        {
+            "question": "常见的 HTTP 状态码有哪些？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "计算机网络"
+            ]
+        },
+        {
+            "question": "HTTP 请求包含哪些内容，请求头和请求体有哪些类型？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "计算机网络"
+            ]
+        },
+        {
+            "question": "HTTP 和 HTTPS 有什么区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "网络"
+            ]
+        },
+        {
+            "question": "HTTP 中 GET 和 POST 的区别是什么？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "计算机网络",
+                "Web"
+            ]
+        },
+        {
+            "question": "WebSocket 与 HTTP 有什么区别？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "计算机网络"
+            ]
+        },
+        {
+            "question": "服务端是如何解析 HTTP 请求的数据？（考察 HTTP 请求格式的了解程度）",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "计算机网络"
+            ]
+        },
+        {
+            "question": "到底什么是 TCP 连接？",
+            "difficulty": "简单",
+            "keywords": [
+                "网络"
+            ]
+        },
+        {
+            "question": "TCP 是用来解决什么问题？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "一台服务器，最多能建立多少 TCP 连接？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "计算机网络"
+            ]
+        },
+        {
+            "question": "TCP 和 UDP 有什么区别？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "为什么要 TCP，IP 层实现控制不行么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "TCP 的粘包和拆包能说说吗？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "说说 TCP 的三次握手？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "TCP 初始序列号 ISN 怎么取值的？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "TCP 三次握手时，发送 SYN 之后就宕机了会怎么样？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "什么是 SYN Flood 攻击？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "TCP 协议是如何保证可靠传输的？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络协议",
+                "网络"
+            ]
+        },
+        {
+            "question": "说说 TCP 的四次挥手？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "为什么 TCP 挥手需要有 TIME_WAIT 状态?",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "除了四次挥手，还有什么方法断开连接？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "计算机网络"
+            ]
+        },
+        {
+            "question": "TCP 超时重传机制是为了解决什么问题？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "TCP 中何时会出现 RST（reset）报文？",
+            "difficulty": "",
+            "keywords": [
+                "VIP",
+                "计算机网络"
+            ]
+        },
+        {
+            "question": "TCP 有超时重传为什么还需要快速重传机制？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "TCP 的 SACK 的引入是为了解决什么问题？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "TCP 滑动窗口的作用是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "说说 TCP 拥塞控制的步骤？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "ARP 和 RARP 分别是什么？有什么区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "TCP/IP 四层模型是什么？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "OSI 七层模型是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "Cookie、Session、Token 之间有什么区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "JWT Token 能说说吗？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "简单谈谈你对 DNS 的理解？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "简单谈谈你对 CDN 的理解？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "从网络角度来看，用户从输入网址到网页显示，期间发生了什么？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "网络"
+            ]
+        },
+        {
+            "question": "常见的登录鉴权方式有哪些？各自的优缺点是？",
+            "difficulty": "",
+            "keywords": [
+                "VIP",
+                "前端",
+                "前端场景",
+                "计算机网络"
+            ]
+        }
+    ]
+}

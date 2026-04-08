@@ -1,0 +1,481 @@
+{
+    "bank_name": "Redis 面试题 - 面试鸭 | 2026最新企业真题+详细答案解析",
+    "questions": [
+        {
+            "question": "Redis 主从复制的实现原理是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 集群的实现原理是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 通常应用于哪些场景？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 为什么这么快？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "为什么 Redis 设计为单线程？6.0 版本为何引入多线程？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 中常见的数据类型有哪些？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 中跳表的实现原理是什么？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 的 hash 是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 和 Memcached 有哪些区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 支持事务吗？如何实现？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 数据过期后的删除策略是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 中有哪些内存淘汰策略？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 的 Lua 脚本功能是什么？如何使用？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 的 Pipeline 功能是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 中的 Big Key 问题是什么？如何解决？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "如何解决 Redis 中的热点 key 问题？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 的持久化机制有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 在生成 RDB 文件时如何处理请求？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 的哨兵机制是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 集群会出现脑裂问题吗？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 的订阅发布功能是什么？你了解吗？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 中如何实现分布式锁？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "分布式锁在未完成逻辑前过期怎么办？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 的 Red Lock 是什么？你了解吗？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 实现分布式锁时可能遇到的问题有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 中的缓存击穿、缓存穿透和缓存雪崩是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 中如何保证缓存与数据库的数据一致性？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis String 类型的底层实现是什么？（SDS）",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "如何使用 Redis 快速实现排行榜？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "如何使用 Redis 快速实现布隆过滤器？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "如何使用 Redis 统计大量用户唯一访问量（UV）？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 中的 Geo 数据结构是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "你在项目中使用的 Redis 客户端是什么？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 字符串类型的最大值大小是多少？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 性能瓶颈时如何处理？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redis 中 EMBSTR 对象的阈值设置为何为 44？其调整历史是什么？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis 中原生批处理命令（MSET、MGET）与 Pipeline 的区别是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis 主从复制的常见拓扑结构有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis List 类型的常见操作命令有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "如何在 Redis 中实现队列和栈数据结构？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis 中的 Ziplist 和 Quicklist 数据结构的特点是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis 复制延迟的常见原因有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis 事务与关系型数据库事务的主要区别是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis Cluster 模式与 Sentinel 模式的区别是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis 的 ListPack 数据结构是什么？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis 中的内存碎片化是什么？如何进行优化？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis 的虚拟内存（VM）机制是什么？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "在 Redis 集群中，如何根据键定位到对应的节点？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Redis",
+                "后端"
+            ]
+        },
+        {
+            "question": "Redis 源码中有哪些巧妙的设计，举几个典型的例子？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "说说 Redisson 分布式锁的原理?",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis",
+                "Redisson"
+            ]
+        },
+        {
+            "question": "Redis Zset 的实现原理是什么？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "为什么 Redis Zset 用跳表实现而不是红黑树？B+树？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        },
+        {
+            "question": "Redisson 看门狗（watch dog）机制了解吗？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "Redis"
+            ]
+        }
+    ]
+}

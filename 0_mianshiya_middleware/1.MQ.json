@@ -1,0 +1,307 @@
+{
+    "bank_name": "消息队列面试题 - 面试鸭 | 2026最新企业真题+详细答案解析",
+    "questions": [
+        {
+            "question": "说一下 RocketMQ 中关于事务消息的实现？",
+            "difficulty": "困难",
+            "keywords": [
+                "RocketMQ",
+                "后端",
+                "消息队列"
+            ]
+        },
+        {
+            "question": "什么是消息队列？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "为什么需要消息队列？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "说一下消息队列的模型有哪些？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "简述下消息队列核心的一些术语？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "消息队列如何保证消息不丢失？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "消息队列如何处理重复消息（保证消息的幂等性）？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "消息队列如何保证消息的有序性（顺序性）？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "消息队列如何处理消息堆积？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "消息队列设计成推消息还是拉消息？推拉模式的优缺点？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端",
+                "场景题"
+            ]
+        },
+        {
+            "question": "RocketMQ 的事务消息有什么缺点？你还了解过别的事务消息实现吗？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端",
+                "RocketMQ"
+            ]
+        },
+        {
+            "question": "说一下 Kafka 中关于事务消息的实现？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "Kafka",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "你了解 Kafka 中的时间轮实现吗?",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端",
+                "Kafka"
+            ]
+        },
+        {
+            "question": "Kafka的索引设计有什么亮点？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Kafka",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "看过源码？那说说 Kafka 控制器事件处理全流程？",
+            "difficulty": "困难",
+            "keywords": [
+                "VIP",
+                "Kafka",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "Kafka 中 Zookeeper 的作用？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Kafka",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "Kafka为什么要抛弃 Zookeeper？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Kafka",
+                "Zookeeper",
+                "消息队列"
+            ]
+        },
+        {
+            "question": "看过源码？那说说 Kafka 处理请求的全流程？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "Kafka",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "RabbitMQ 中无法路由的消息会去到哪里？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "RabbitMQ",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "RabbitMQ 中消息什么时候会进入死信交换机？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "RabbitMQ",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "说一下 AMQP 协议？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "RabbitMQ",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "说一下 RabbitMQ 的事务机制？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "RabbitMQ",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "RabbitMQ 中主要有哪几个角色或者说概念？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "RabbitMQ",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "RabbitMQ 的 routing key 和 binding key 的最大长度是多少字节？",
+            "difficulty": "简单",
+            "keywords": [
+                "VIP",
+                "RabbitMQ",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "说说 RabbitMQ 的工作模式？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "消息队列",
+                "RabbitMQ"
+            ]
+        },
+        {
+            "question": "说说 RabbitMQ 的集群模式？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "RabbitMQ",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "为什么 RocketMQ 不使用 Zookeeper 作为注册中心呢？而选择自己实现 NameServer？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "RocketMQ",
+                "消息队列",
+                "后端"
+            ]
+        },
+        {
+            "question": "说一下 Kafka 为什么性能高？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端",
+                "Kafka"
+            ]
+        },
+        {
+            "question": "RabbitMQ 怎么实现延迟队列？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "后端",
+                "消息队列",
+                "RabbitMQ"
+            ]
+        },
+        {
+            "question": "RocketMQ 的延迟消息是怎么实现的？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端",
+                "RocketMQ"
+            ]
+        },
+        {
+            "question": "RocketMQ 的开发参考了 Kafka，那两者在架构和功能上有什么区别？",
+            "difficulty": "中等",
+            "keywords": [
+                "VIP",
+                "消息队列",
+                "后端",
+                "RocketMQ",
+                "Kafka"
+            ]
+        }
+    ]
+}

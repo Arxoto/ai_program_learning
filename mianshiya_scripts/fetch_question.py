@@ -246,7 +246,7 @@ async def main():
         print(f"总共抓取 {len(question_bank.questions)} 条题目（已去重）")
         
         # 保存为 JSON 文件
-        output_file = Path(__file__).parent / "output.json"
+        output_file = Path(__file__).parent / "1.output.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(asdict(question_bank), f, ensure_ascii=False, indent=4)
         print(f"已保存到 {output_file}")

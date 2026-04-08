@@ -1,3 +1,5 @@
+#!/bin/bash
+
 find . -type f -name "* - 面试鸭*" -print0 | while IFS= read -r -d '' file; do
     dir=$(dirname "$file")
     base=$(basename "$file")

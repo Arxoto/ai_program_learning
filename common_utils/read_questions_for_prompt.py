@@ -65,15 +65,35 @@ def main():
 
     cast(io.TextIOWrapper, sys.stdout).reconfigure(encoding="utf-8")
     num = 1
-    for fn, file_path in [
-        (each_questions_format_by_jsons, r"./1_Questions_from_mianshiya.json"),
-        (each_questions_format_by_markdown_list, r"./1_Questions_from_AngleMAXIN.md"),
+    for topic, fn, file_path in [
+        # ("大模型应用开发，", each_questions_format_by_jsons, r"./1_Questions_from_mianshiya.json"),
+        # ("大模型应用开发，", each_questions_format_by_markdown_list, r"./1_Questions_from_AngleMAXIN.md"),
+
+        # ("后端网络 ", each_questions_format_by_jsons, r"./1_network.json"),
+        # ("后端操作系统OS ", each_questions_format_by_jsons, r"./1_os.json"),
+
+        # ("java后端开发 ", each_questions_format_by_jsons, r"./1_java_200.json"),
+
+        # ("java后端开发 ", each_questions_format_by_jsons, r"./1_java_basic.json"),
+        # ("java后端开发 ", each_questions_format_by_jsons, r"./1_java_collection.json"),
+        # ("java后端开发 ", each_questions_format_by_jsons, r"./1_java_concurrent.json"),
+        # ("java后端开发 ", each_questions_format_by_jsons, r"./1_java_jvm.json"),
+
+        # ("java后端开发 ", each_questions_format_by_jsons, r"./1_spring.json"),
+        # ("java后端开发 ", each_questions_format_by_jsons, r"./1_springboot.json"),
+        # ("java后端开发 ", each_questions_format_by_jsons, r"./1_springcloud.json"),
+
+        # ("java后端开发 消息队列 MQ ", each_questions_format_by_jsons, r"./1.MQ.json"),
+        # ("java后端开发 数据库SQL框架 MyBatis ", each_questions_format_by_jsons, r"./1.MyBatis.json"),
+        # ("java后端开发 数据库 MySQL ", each_questions_format_by_jsons, r"./1.MySQL.json"),
+        # ("java后端开发 缓存 NoSQL Redis ", each_questions_format_by_jsons, r"./1.Redis.json"),
     ]:
         for question in fn(file_path):
             print(f"# ========= {num} =========\n")
             num += 1
-            print(prompt_prefix, question, sep="", end="\n\n")
+            print(topic, prompt_prefix, question, sep="", end="\n\n")
 
 
 if __name__ == "__main__":
+    # uv run ..\common_utils\read_questions_for_prompt.py > ./0_prompt.md
     main()

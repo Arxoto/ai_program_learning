@@ -72,7 +72,24 @@ Spring 中常见注入
 
 **Spring Bean** 是由 Spring IoC 容器完成实例化、装配（依赖注入）并全生命周期管理的 Java 对象实例
 
-Bean 在容器内部的元数据抽象 `BeanDefinition` （可由 XML 配置、注解驱动配置、编程式动态注册）
+### Bean 注册到 IoC 容器
+
+本质上是注册 Bean 的元数据抽象 `BeanDefinition`
+
+- XML 配置
+- `@Component` 注解 `@ComponentScan` + `@Component`/`@Service`/`@Controller`/`@Repository`
+- `@Bean` 注解（工厂方法） `@Configuration` + `@Bean`
+- `@Import` 注解导入
+- 实现 `BeanDefinitionRegistryPostProcessor` 接口，注册 `GenericBeanDefinition` 对象
+- 实现 `FactoryBean` 接口，返回实例化对象
+
+### Bean 自动装配
+
+- 基于 XML 配置
+- 基于注解
+  - `@Autowired` 默认按类型注入， Spring 原生，配合 `@Qualifier` 在同类型多实例情况下指定特定对象，或使用 `@Primary` 设置默认对象
+  - `@Resource` 默认按名称注入，来源于 JSR-250 标准
+  - `@Inject` 默认按类型注入，来源于 JSR-330 标准，行为与 `@Autowired` 几乎一致
 
 ### Bean 的作用域 Scope
 
@@ -172,6 +189,7 @@ AOP（Aspect-Oriented Programming，面向切面编程） 是一种编程范式�
 - 切入点 Pointcut 匹配连接点的表达式规则
 - 通知 Advice 连接点上执行的增强逻辑
 - 切面 Aspect 切入点与通知的集合
+- 顾问 Advisor 一个切面的最小组成单元，包含一个切点和通知
 
 **Spring AOP**
 

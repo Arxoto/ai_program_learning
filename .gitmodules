@@ -13,3 +13,6 @@
 [submodule "5_springboot_ddd/yu-picture"]
 	path = 5_springboot_ddd/yu-picture
 	url = git@github.com:liyupi/yu-picture.git
+[submodule "script/content_merge"]
+	path = script/content_merge
+	url = git@github.com:Arxoto/content_merge.git
